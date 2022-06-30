@@ -198,13 +198,13 @@ extension PartialSheet {
                     }
                 }
                 .edgesIgnoringSafeArea(.vertical)
-                .onTapGesture {
-                    withAnimation(manager.defaultAnimation) {
-                        self.manager.isPresented = false
-                        self.dismissKeyboard()
-                        self.manager.onDismiss?()
-                    }
-                }
+                // .onTapGesture {
+                //     withAnimation(manager.defaultAnimation) {
+                //         self.manager.isPresented = false
+                //         self.dismissKeyboard()
+                //         self.manager.onDismiss?()
+                //     }
+                // }
             }
             // The SHEET VIEW
             Group {
